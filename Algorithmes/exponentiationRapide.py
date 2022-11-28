@@ -11,7 +11,7 @@ def exponentiationRapide(a,x,n):
 
 
 def main():
-    print(exponentiationRapide(6, 55, 23))
+    print(exponentiationRapide(6, 17, 13))
 
 if __name__ == "__main__":
     main()
