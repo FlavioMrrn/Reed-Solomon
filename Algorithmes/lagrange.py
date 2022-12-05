@@ -29,7 +29,7 @@ def remove_zeros(p):
         n += 1
      return p[:m-n+1]
 
-def multiplication(a,b): 
+def multiplication(a,b, n): 
     prod = [0]*(len(a) + len(b) -1)
     for k in range(len(a)):
        for l in range(len(b)):
